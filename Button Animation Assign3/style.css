@@ -1,0 +1,48 @@
+.raise:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+  }
+  
+  .raise {
+      --color: #f5c0c0;
+      --hover: #9fd8df;
+    }
+
+    body {
+        color: #fff;
+        background: #252525;
+        font-family: 'Akaya Kanadaka', cursive;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        display: flex;
+      }
+
+    button {
+      width: 20vw;
+      height: 10vh;
+      background: none;
+      border: 2px solid;
+      line-height: 1;
+      margin: 0.5em;
+      padding: 1em 2em;
+      cursor: pointer;
+      color: var(--color);
+      transition: 0.25s;
+      font-family: 'Akaya Kanadaka', cursive;
+      font-size: 1.25rem;
+   
+      
+   
+    }
+  
+    
+    
+  
+    button:hover, button:focus {
+      border-color: var(--hover);
+      color: var(--hover);
+     
+    }
